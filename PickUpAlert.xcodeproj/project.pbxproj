@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41B0F070755D74DC1481DDD /* Pods_PickUpAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957091B66194EECA1DC0CAF4 /* Pods_PickUpAlert.framework */; };
+		A53BE5FC43A2555499F95A60 /* Pods_PickUpAlert_PickUpAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB94E9AF519EA24B2F5CF12 /* Pods_PickUpAlert_PickUpAlertUITests.framework */; };
+		C12A0BC22965B15700C9DAA7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A0BC12965B15700C9DAA7 /* SettingsView.swift */; };
+		C14722A7296E53940045568F /* SwiftUIMobileAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14722A6296E53940045568F /* SwiftUIMobileAds.swift */; };
+		C14722A9296E56C10045568F /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14722A8296E56C10045568F /* CameraModel.swift */; };
+		C14722AD296EE1F70045568F /* SwiftUIBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14722AC296EE1F70045568F /* SwiftUIBannerAd.swift */; };
+		C1496E47296C4741009CC311 /* yolov5m.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C1496E46296C4741009CC311 /* yolov5m.mlmodel */; };
+		C149B93D2961844D00E1F75C /* PickUpAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149B93C2961844D00E1F75C /* PickUpAlertApp.swift */; };
+		C149B93F2961844D00E1F75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149B93E2961844D00E1F75C /* ContentView.swift */; };
+		C149B9442961844E00E1F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C149B9432961844E00E1F75C /* Preview Assets.xcassets */; };
+		C149B94E2961844E00E1F75C /* PickUpAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149B94D2961844E00E1F75C /* PickUpAlertTests.swift */; };
+		C149B9582961844E00E1F75C /* PickUpAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149B9572961844E00E1F75C /* PickUpAlertUITests.swift */; };
+		C149B95A2961844E00E1F75C /* PickUpAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149B9592961844E00E1F75C /* PickUpAlertUITestsLaunchTests.swift */; };
+		C160CEE72976E5FB0048CACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C160CEE62976E5FB0048CACB /* Assets.xcassets */; };
+		EC49DBEAEEFF4DC49A4CE664 /* Pods_PickUpAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83936529038B441FC2C74E9D /* Pods_PickUpAlertTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C149B94A2961844E00E1F75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C149B9312961844C00E1F75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C149B9382961844D00E1F75C;
+			remoteInfo = PickUpAlert;
+		};
+		C149B9542961844E00E1F75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C149B9312961844C00E1F75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C149B9382961844D00E1F75C;
+			remoteInfo = PickUpAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C3578EE8B7214AF7DD6222 /* Pods-PickUpAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpAlert.debug.xcconfig"; path = "Target Support Files/Pods-PickUpAlert/Pods-PickUpAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		20B11E228FF83869169462B5 /* Pods-PickUpAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpAlert.release.xcconfig"; path = "Target Support Files/Pods-PickUpAlert/Pods-PickUpAlert.release.xcconfig"; sourceTree = "<group>"; };
+		50620F9A81F1CB33CDCEA42D /* Pods-PickUpAlert-PickUpAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpAlert-PickUpAlertUITests.debug.xcconfig"; path = "Target Support Files/Pods-PickUpAlert-PickUpAlertUITests/Pods-PickUpAlert-PickUpAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57D002B898C7E910EC05C760 /* Pods-PickUpAlert-PickUpAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpAlert-PickUpAlertUITests.release.xcconfig"; path = "Target Support Files/Pods-PickUpAlert-PickUpAlertUITests/Pods-PickUpAlert-PickUpAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83936529038B441FC2C74E9D /* Pods_PickUpAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickUpAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		957091B66194EECA1DC0CAF4 /* Pods_PickUpAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickUpAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB0539CAC480C0E519B0D25 /* Pods-PickUpAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpAlertTests.debug.xcconfig"; path = "Target Support Files/Pods-PickUpAlertTests/Pods-PickUpAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B605C36B4A918FFD9CBE6E4E /* Pods-PickUpAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpAlertTests.release.xcconfig"; path = "Target Support Files/Pods-PickUpAlertTests/Pods-PickUpAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		C12A0BC12965B15700C9DAA7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C14722A6296E53940045568F /* SwiftUIMobileAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMobileAds.swift; sourceTree = "<group>"; };
+		C14722A8296E56C10045568F /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		C14722AC296EE1F70045568F /* SwiftUIBannerAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIBannerAd.swift; sourceTree = "<group>"; };
+		C1496E46296C4741009CC311 /* yolov5m.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolov5m.mlmodel; sourceTree = "<group>"; };
+		C149B9392961844D00E1F75C /* PickUpAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickUpAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C149B93C2961844D00E1F75C /* PickUpAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpAlertApp.swift; sourceTree = "<group>"; };
+		C149B93E2961844D00E1F75C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C149B9432961844E00E1F75C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C149B9492961844E00E1F75C /* PickUpAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C149B94D2961844E00E1F75C /* PickUpAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpAlertTests.swift; sourceTree = "<group>"; };
+		C149B9532961844E00E1F75C /* PickUpAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C149B9572961844E00E1F75C /* PickUpAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpAlertUITests.swift; sourceTree = "<group>"; };
+		C149B9592961844E00E1F75C /* PickUpAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C160CEE62976E5FB0048CACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C16D35A52966A269009E1269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAB94E9AF519EA24B2F5CF12 /* Pods_PickUpAlert_PickUpAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickUpAlert_PickUpAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C149B9362961844D00E1F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41B0F070755D74DC1481DDD /* Pods_PickUpAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149B9462961844E00E1F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC49DBEAEEFF4DC49A4CE664 /* Pods_PickUpAlertTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149B9502961844E00E1F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53BE5FC43A2555499F95A60 /* Pods_PickUpAlert_PickUpAlertUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F8BDBEFFAEF562C9A1C26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				957091B66194EECA1DC0CAF4 /* Pods_PickUpAlert.framework */,
+				EAB94E9AF519EA24B2F5CF12 /* Pods_PickUpAlert_PickUpAlertUITests.framework */,
+				83936529038B441FC2C74E9D /* Pods_PickUpAlertTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDA7CD89DEB3B7C589496975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18C3578EE8B7214AF7DD6222 /* Pods-PickUpAlert.debug.xcconfig */,
+				20B11E228FF83869169462B5 /* Pods-PickUpAlert.release.xcconfig */,
+				50620F9A81F1CB33CDCEA42D /* Pods-PickUpAlert-PickUpAlertUITests.debug.xcconfig */,
+				57D002B898C7E910EC05C760 /* Pods-PickUpAlert-PickUpAlertUITests.release.xcconfig */,
+				AEB0539CAC480C0E519B0D25 /* Pods-PickUpAlertTests.debug.xcconfig */,
+				B605C36B4A918FFD9CBE6E4E /* Pods-PickUpAlertTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C149B9302961844C00E1F75C = {
+			isa = PBXGroup;
+			children = (
+				C149B93B2961844D00E1F75C /* PickUpAlert */,
+				C149B94C2961844E00E1F75C /* PickUpAlertTests */,
+				C149B9562961844E00E1F75C /* PickUpAlertUITests */,
+				C149B93A2961844D00E1F75C /* Products */,
+				BDA7CD89DEB3B7C589496975 /* Pods */,
+				76F8BDBEFFAEF562C9A1C26B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C149B93A2961844D00E1F75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C149B9392961844D00E1F75C /* PickUpAlert.app */,
+				C149B9492961844E00E1F75C /* PickUpAlertTests.xctest */,
+				C149B9532961844E00E1F75C /* PickUpAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C149B93B2961844D00E1F75C /* PickUpAlert */ = {
+			isa = PBXGroup;
+			children = (
+				C16D35A52966A269009E1269 /* Info.plist */,
+				C149B93C2961844D00E1F75C /* PickUpAlertApp.swift */,
+				C149B93E2961844D00E1F75C /* ContentView.swift */,
+				C14722A8296E56C10045568F /* CameraModel.swift */,
+				C12A0BC12965B15700C9DAA7 /* SettingsView.swift */,
+				C14722AC296EE1F70045568F /* SwiftUIBannerAd.swift */,
+				C14722A6296E53940045568F /* SwiftUIMobileAds.swift */,
+				C1496E46296C4741009CC311 /* yolov5m.mlmodel */,
+				C160CEE62976E5FB0048CACB /* Assets.xcassets */,
+				C149B9422961844E00E1F75C /* Preview Content */,
+			);
+			path = PickUpAlert;
+			sourceTree = "<group>";
+		};
+		C149B9422961844E00E1F75C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C149B9432961844E00E1F75C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C149B94C2961844E00E1F75C /* PickUpAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				C149B94D2961844E00E1F75C /* PickUpAlertTests.swift */,
+			);
+			path = PickUpAlertTests;
+			sourceTree = "<group>";
+		};
+		C149B9562961844E00E1F75C /* PickUpAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C149B9572961844E00E1F75C /* PickUpAlertUITests.swift */,
+				C149B9592961844E00E1F75C /* PickUpAlertUITestsLaunchTests.swift */,
+			);
+			path = PickUpAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C149B9382961844D00E1F75C /* PickUpAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C149B95D2961844E00E1F75C /* Build configuration list for PBXNativeTarget "PickUpAlert" */;
+			buildPhases = (
+				F232D8BBB376F0123049B8E1 /* [CP] Check Pods Manifest.lock */,
+				C149B9352961844D00E1F75C /* Sources */,
+				C149B9362961844D00E1F75C /* Frameworks */,
+				C149B9372961844D00E1F75C /* Resources */,
+				FF0A7DC9E8CA5D69EEEBA707 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickUpAlert;
+			productName = PickUpAlert;
+			productReference = C149B9392961844D00E1F75C /* PickUpAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C149B9482961844E00E1F75C /* PickUpAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C149B9602961844E00E1F75C /* Build configuration list for PBXNativeTarget "PickUpAlertTests" */;
+			buildPhases = (
+				7E9FE081802CAEDB22E0A0C8 /* [CP] Check Pods Manifest.lock */,
+				C149B9452961844E00E1F75C /* Sources */,
+				C149B9462961844E00E1F75C /* Frameworks */,
+				C149B9472961844E00E1F75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C149B94B2961844E00E1F75C /* PBXTargetDependency */,
+			);
+			name = PickUpAlertTests;
+			productName = PickUpAlertTests;
+			productReference = C149B9492961844E00E1F75C /* PickUpAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C149B9522961844E00E1F75C /* PickUpAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C149B9632961844E00E1F75C /* Build configuration list for PBXNativeTarget "PickUpAlertUITests" */;
+			buildPhases = (
+				875882339CCFDC423063EEC3 /* [CP] Check Pods Manifest.lock */,
+				C149B94F2961844E00E1F75C /* Sources */,
+				C149B9502961844E00E1F75C /* Frameworks */,
+				C149B9512961844E00E1F75C /* Resources */,
+				B797C4EAB4D1484D6D9FA042 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C149B9552961844E00E1F75C /* PBXTargetDependency */,
+			);
+			name = PickUpAlertUITests;
+			productName = PickUpAlertUITests;
+			productReference = C149B9532961844E00E1F75C /* PickUpAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C149B9312961844C00E1F75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C149B9382961844D00E1F75C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C149B9482961844E00E1F75C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C149B9382961844D00E1F75C;
+					};
+					C149B9522961844E00E1F75C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C149B9382961844D00E1F75C;
+					};
+				};
+			};
+			buildConfigurationList = C149B9342961844C00E1F75C /* Build configuration list for PBXProject "PickUpAlert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C149B9302961844C00E1F75C;
+			productRefGroup = C149B93A2961844D00E1F75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C149B9382961844D00E1F75C /* PickUpAlert */,
+				C149B9482961844E00E1F75C /* PickUpAlertTests */,
+				C149B9522961844E00E1F75C /* PickUpAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C149B9372961844D00E1F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C160CEE72976E5FB0048CACB /* Assets.xcassets in Resources */,
+				C149B9442961844E00E1F75C /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149B9472961844E00E1F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149B9512961844E00E1F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E9FE081802CAEDB22E0A0C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickUpAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875882339CCFDC423063EEC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickUpAlert-PickUpAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B797C4EAB4D1484D6D9FA042 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpAlert-PickUpAlertUITests/Pods-PickUpAlert-PickUpAlertUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpAlert-PickUpAlertUITests/Pods-PickUpAlert-PickUpAlertUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickUpAlert-PickUpAlertUITests/Pods-PickUpAlert-PickUpAlertUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F232D8BBB376F0123049B8E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickUpAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0A7DC9E8CA5D69EEEBA707 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpAlert/Pods-PickUpAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickUpAlert/Pods-PickUpAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickUpAlert/Pods-PickUpAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C149B9352961844D00E1F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12A0BC22965B15700C9DAA7 /* SettingsView.swift in Sources */,
+				C14722A7296E53940045568F /* SwiftUIMobileAds.swift in Sources */,
+				C1496E47296C4741009CC311 /* yolov5m.mlmodel in Sources */,
+				C149B93F2961844D00E1F75C /* ContentView.swift in Sources */,
+				C14722A9296E56C10045568F /* CameraModel.swift in Sources */,
+				C14722AD296EE1F70045568F /* SwiftUIBannerAd.swift in Sources */,
+				C149B93D2961844D00E1F75C /* PickUpAlertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149B9452961844E00E1F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C149B94E2961844E00E1F75C /* PickUpAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C149B94F2961844E00E1F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C149B9582961844E00E1F75C /* PickUpAlertUITests.swift in Sources */,
+				C149B95A2961844E00E1F75C /* PickUpAlertUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C149B94B2961844E00E1F75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C149B9382961844D00E1F75C /* PickUpAlert */;
+			targetProxy = C149B94A2961844E00E1F75C /* PBXContainerItemProxy */;
+		};
+		C149B9552961844E00E1F75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C149B9382961844D00E1F75C /* PickUpAlert */;
+			targetProxy = C149B9542961844E00E1F75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C149B95B2961844E00E1F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C149B95C2961844E00E1F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C149B95E2961844E00E1F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C3578EE8B7214AF7DD6222 /* Pods-PickUpAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickUpAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = NCH22Z2PNF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PickUpAlert/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera to determine the target.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Microphone when recording the video.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Camera records the video and store in Photo Library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker91754.PickUpAlertOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C149B95F2961844E00E1F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B11E228FF83869169462B5 /* Pods-PickUpAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickUpAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = NCH22Z2PNF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PickUpAlert/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera to determine the target.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Microphone when recording the video.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Camera records the video and store in Photo Library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker91754.PickUpAlertOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C149B9612961844E00E1F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB0539CAC480C0E519B0D25 /* Pods-PickUpAlertTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV4H844LGN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker91754.PickUpAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickUpAlert";
+			};
+			name = Debug;
+		};
+		C149B9622961844E00E1F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B605C36B4A918FFD9CBE6E4E /* Pods-PickUpAlertTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV4H844LGN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker91754.PickUpAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickUpAlert";
+			};
+			name = Release;
+		};
+		C149B9642961844E00E1F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50620F9A81F1CB33CDCEA42D /* Pods-PickUpAlert-PickUpAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV4H844LGN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker91754.PickUpAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickUpAlert;
+			};
+			name = Debug;
+		};
+		C149B9652961844E00E1F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D002B898C7E910EC05C760 /* Pods-PickUpAlert-PickUpAlertUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV4H844LGN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walker91754.PickUpAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickUpAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C149B9342961844C00E1F75C /* Build configuration list for PBXProject "PickUpAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149B95B2961844E00E1F75C /* Debug */,
+				C149B95C2961844E00E1F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C149B95D2961844E00E1F75C /* Build configuration list for PBXNativeTarget "PickUpAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149B95E2961844E00E1F75C /* Debug */,
+				C149B95F2961844E00E1F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C149B9602961844E00E1F75C /* Build configuration list for PBXNativeTarget "PickUpAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149B9612961844E00E1F75C /* Debug */,
+				C149B9622961844E00E1F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C149B9632961844E00E1F75C /* Build configuration list for PBXNativeTarget "PickUpAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C149B9642961844E00E1F75C /* Debug */,
+				C149B9652961844E00E1F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C149B9312961844C00E1F75C /* Project object */;
+}
